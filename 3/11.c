@@ -20,8 +20,6 @@ int main(void)
         case 'T':
             cost = amount * 0.15;
             break;
-        default:
-            break;
     }
     printf("Total cost: %lf\n", cost);
     return 0;
